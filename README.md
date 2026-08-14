@@ -1,3 +1,21 @@
+# ⚡ High-Performance C++ Algorithm & Systems Portfolio
+
+![Build Status](https://github.com/USERNAME/REPO_NAME/actions/workflows/cpp-ci.yml/badge.svg)
+![C++ Standard](https://img.shields.io/badge/C%2B%2B-17-blue.svg)
+![Performance](https://img.shields.io/badge/LeetCode-0ms%20(100%25)-brightgreen.svg)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+A curated collection of hardware-optimized, memory-aligned, and cache-friendly C++ solutions for complex spatial, graph, and mathematical algorithms.
+
+---
+
+### 🏛️ Engineering & Architectural Standards
+
+- **Zero-Allocation Hot Loops:** Cache-friendly data structures (`std::vector<char>` vs `std::vector<bool>`).
+- **Hardware Branch Decoupling:** Pipeline-friendly branchless operations (`cmov`).
+- **Automated CI/CD:** Native CMake build automation and GitHub Actions execution pipeline.
+- **Microsecond Benchmarking:** Verification using `std::chrono` high-resolution clock on $1000 \times 1000$ synthetic grids.
+
 # 🚀 High-Performance C++ Solutions: Trapping Rain Water II
 
 > **File:** `trapping_rain_water_2.cpp` / `README.md`  
